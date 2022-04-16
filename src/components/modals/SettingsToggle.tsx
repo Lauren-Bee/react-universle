@@ -16,7 +16,7 @@ export const SettingsToggle = ({
   const toggleHolder = classnames(
     'w-14 h-8 flex shrink-0 items-center bg-gray-300 rounded-full p-1 duration-300 ease-in-out cursor-pointer',
     {
-      'bg-green-400': flag,
+      'bg-blue-400': flag,
     }
   )
   const toggleButton = classnames(
@@ -29,10 +29,10 @@ export const SettingsToggle = ({
   return (
     <>
       <div className="flex justify-between gap-4 py-3">
-        <div className="text-gray-500 dark:text-gray-300 mt-2 text-left">
+        <div className="text-gray-300 mt-2 text-left">
           <p className="leading-none">{settingName}</p>
           {description && (
-            <p className="text-xs mt-1 text-gray-500 dark:text-gray-300">
+            <p className="text-xs mt-1 text-gray-300">
               {description}
             </p>
           )}

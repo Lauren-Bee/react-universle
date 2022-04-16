@@ -21,7 +21,6 @@ type Props = {
   isGameWon: boolean
   handleShareToClipboard: () => void
   isHardMode: boolean
-  isDarkMode: boolean
   isHighContrastMode: boolean
   numberOfGuessesMade: number
 }
@@ -35,7 +34,6 @@ export const StatsModal = ({
   isGameWon,
   handleShareToClipboard,
   isHardMode,
-  isDarkMode,
   isHighContrastMode,
   numberOfGuessesMade,
 }: Props) => {
@@ -56,8 +54,12 @@ export const StatsModal = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
+      <p className="text-base text-gray-300">
+        Guess the word in 6 tries. After each guess, the color of the tiles will change to show how close your guess was to the word.
+      </p>
+      
       <StatBar gameStats={gameStats} />
-      <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+      <h4 className="text-lg leading-6 font-medium text-gray-100">
         {GUESS_DISTRIBUTION_TEXT}
       </h4>
       <Histogram
@@ -65,11 +67,11 @@ export const StatsModal = ({
         numberOfGuessesMade={numberOfGuessesMade}
       />
       {(isGameLost || isGameWon) && (
-        <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
+        <div className="mt-5 sm:mt-6 columns-2 text-white">
           <div>
             <h5>{NEW_WORD_TEXT}</h5>
             <Countdown
-              className="text-lg font-medium text-gray-900 dark:text-gray-100"
+              className="text-lg font-medium text-gray-100"
               date={tomorrow}
               daysInHours={true}
             />
@@ -82,7 +84,6 @@ export const StatsModal = ({
                 guesses,
                 isGameLost,
                 isHardMode,
-                isDarkMode,
                 isHighContrastMode,
                 handleShareToClipboard
               )
