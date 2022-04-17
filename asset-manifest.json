@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-universle/static/css/main.f7551a3a.css",
-    "main.js": "/react-universle/static/js/main.018dfd07.js",
+    "main.js": "/react-universle/static/js/main.5dc56394.js",
     "static/js/787.b3f9d252.chunk.js": "/react-universle/static/js/787.b3f9d252.chunk.js",
     "static/media/GSFC_20171208_Archive_e001518_large.jpg": "/react-universle/static/media/GSFC_20171208_Archive_e001518_large.eaf96f49af457e921814.jpg",
     "index.html": "/react-universle/index.html",
     "main.f7551a3a.css.map": "/react-universle/static/css/main.f7551a3a.css.map",
-    "main.018dfd07.js.map": "/react-universle/static/js/main.018dfd07.js.map",
+    "main.5dc56394.js.map": "/react-universle/static/js/main.5dc56394.js.map",
     "787.b3f9d252.chunk.js.map": "/react-universle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7551a3a.css",
-    "static/js/main.018dfd07.js"
+    "static/js/main.5dc56394.js"
   ]
 }
