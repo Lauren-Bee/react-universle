@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-universle/static/css/main.474ac19c.css",
+    "main.js": "/react-universle/static/js/main.867a46d8.js",
+    "static/js/787.b3f9d252.chunk.js": "/react-universle/static/js/787.b3f9d252.chunk.js",
+    "static/media/GSFC_20171208_Archive_e001518_large.jpg": "/react-universle/static/media/GSFC_20171208_Archive_e001518_large.eaf96f49af457e921814.jpg",
+    "index.html": "/react-universle/index.html",
+    "main.474ac19c.css.map": "/react-universle/static/css/main.474ac19c.css.map",
+    "main.867a46d8.js.map": "/react-universle/static/js/main.867a46d8.js.map",
+    "787.b3f9d252.chunk.js.map": "/react-universle/static/js/787.b3f9d252.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.474ac19c.css",
+    "static/js/main.867a46d8.js"
+  ]
+}
