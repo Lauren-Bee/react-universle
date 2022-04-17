@@ -1,9 +1,10 @@
 import Countdown from 'react-countdown'
 import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
+import { Info } from '../stats/Info'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { tomorrow } from '../../lib/words'
+import { getWordOfDayInfo, tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -54,10 +55,11 @@ export const StatsModal = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <p className="text-base text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will change to show how close your guess was to the word.
-      </p>
-      
+      <Info 
+        definition={getWordOfDayInfo()?.info ?? ''}
+        link={getWordOfDayInfo()?.link ?? ''}
+        title={getWordOfDayInfo()?.title ?? ''}
+      />  
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-100">
         {GUESS_DISTRIBUTION_TEXT}
