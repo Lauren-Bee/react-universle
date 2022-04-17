@@ -55,11 +55,13 @@ export const StatsModal = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
+      {(isGameLost || isGameWon) && (
       <Info 
         definition={getWordOfDayInfo()?.info ?? ''}
         link={getWordOfDayInfo()?.link ?? ''}
         title={getWordOfDayInfo()?.title ?? ''}
       />  
+      )}
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-100">
         {GUESS_DISTRIBUTION_TEXT}

@@ -18,53 +18,62 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="C"
           status="correct"
         />
-        <Cell value="E" />
+        <Cell value="H" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="O" />
+        <Cell value="S" />
       </div>
       <p className="text-sm text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter C is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="O" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="W"
           status="present"
         />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="E" />
+        <Cell value="R" />
       </div>
       <p className="text-sm text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter W is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="S" />
+        <Cell value="U" />
+        <Cell value="R" />
+        <Cell isRevealing={true} isCompleted={true} value="G" status="absent" />
         <Cell value="E" />
       </div>
       <p className="text-sm text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter G is not in the word in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-300">
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/Lauren-Bee/react-wordle"
           className="underline font-bold"
         >
           check out the code here
+        </a>{' '}
+      </p>
+      <p className="mt-6 italic text-sm text-gray-300">
+        Based on {' '}
+        <a
+          href="https://github.com/cwackerfuss/react-wordle"
+          className="underline font-bold"
+        >
+          react-wordle by cwackerfuss on GitHub
         </a>{' '}
       </p>
     </BaseModal>

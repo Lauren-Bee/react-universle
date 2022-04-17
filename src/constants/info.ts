@@ -1,14 +1,290 @@
 export const INFO = [
     {
-        word: 'orbit',
-        definition: 'did you know that start is the example word I am using for this modal?',
-        link: 'www.google.com',
-        title: 'None'
+        word: 'solar',
+        definition: 'Roll-Out Solar Arrays (ROSA) offer a compact design and autonomous capabilities that can enhance a wide spectrum of scientific and commercial missions.',
+        link: 'https://www.nasa.gov/directorates/spacetech/Rolling_Out_a_Path_to_Future_Space_Travel',
+        title: 'Impact Story: Roll-Out Solar Arrays'
     },
     {
-        word: 'solar',
-        definition: 'NASA is developing new deployable structures and materials technologies for solar sail propulsion systems destined for future low-cost deep space missions. Learn about one such mission here: ',
+        word: 'scout',
+        definition: 'The Near-Earth Asteroid Scout (NEA Scout) is a planned mission by NASA to develop a controllable low-cost CubeSat solar sail spacecraft capable of encountering near-Earth asteroids (NEA).',
         link: 'https://techport.nasa.gov/view/14656',
-        title: 'Near Earth Asteroid Scout'
+        title: 'NEA Scout'
+    },
+    {
+        word:'venus',
+        definition: 'VERITAS, short for Venus Emissivity, Radio science, InSAR, Topography, And Spectroscopy, is a Venus orbiter designed to reveal how the paths of Venus and Earth diverged, and how Venus lost its potential as a habitable world.',
+        link: 'https://www.jpl.nasa.gov/missions/veritas',
+        title: 'VERITAS'
+    },
+    {
+        word:'orbit',
+        definition:'More than 27,000 pieces of orbital debris, or “space junk,” are tracked by the Department of Defense’s global Space Surveillance Network (SSN) sensors. Much more debris -- too small to be tracked, but large enough to threaten human spaceflight and robotic missions -- exists in the near-Earth space environment.',
+        link:'https://www.nasa.gov/mission_pages/station/news/orbital_debris.html',
+        title:'Space Debris and Human Spacecraft'
+    },
+    {
+        word:'space',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'plume',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'earth',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'alien',
+        definition:'The search for life beyond Earth is really just getting started, but science has an encouraging early answer: there are plenty of planets in the galaxy, many with similarities to our own. But what we don\'t know fills volumes.',
+        link:'https://exoplanets.nasa.gov/search-for-life/are-we-alone/',
+        title:'The Search for Life: Are We Alone?'
+    },
+    {
+        word:'lunar',
+        definition:'The Lunar Surface Innovation Initiative is a technology development portfolio to enable human and robotic exploration on the Moon and future operations on Mars.',
+        link:'https://www.nasa.gov/directorates/spacetech/Lunar_Surface_Innovation_Initiative',
+        title:'Lunar Surface Innovation Initiative'
+    },
+    {
+        word:'entry',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'slosh',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'icing',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'model',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'cycle',
+        definition: 'The Cycle Ergometer with Vibration Isolation System (CEVIS) on the ISS allows astronauts to stay healthy while in space, helping maintain muscle while preventing bone loss.',
+        link: 'https://lsda.jsc.nasa.gov/Hardware/hardw/172',
+        title: 'Cycle Ergometer'
+    },
+    {
+        word:'error',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'radio',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'robot',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'panel',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'venus',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'pluto',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'laser',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'lidar',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'clock',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'wheel',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'range',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'power',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'array',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'point',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'speed',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'probe',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'comet',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'fluid',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'delta',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'dwarf',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'biome',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'force',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'truth',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'ionic',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'joint',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'light',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'ocean',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'phase',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'swarm',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'water',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'black',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'waste',
+        definition:'How do astronauts go to the bathroom in space? The most basic human biological processes becomes challenging off-planet due in part to the lack of gravity. NASA\'s Universal Waste Management System (UWMS) on the ISS is critical to reduce the need to launch supplemental water from Earth.',
+        link:'https://www.nasa.gov/feature/boldly-go-nasa-s-new-space-toilet-offers-more-comfort-improved-efficiency-for-deep-space',
+        title:'Universal Waste Management System'
+    },
+    {
+        word:'human',
+        definition:'',
+        link:'',
+        title:''
+    },
+    {
+        word:'fault',
+        definition:'',
+        link:'',
+        title:''
     }
 ]
