@@ -1,5 +1,3 @@
-import { getWordOfDayInfo } from '../../lib/words'
-
 type Props = {
     definition: string
     link: string

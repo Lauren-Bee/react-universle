@@ -95,7 +95,7 @@ export const { solution, solutionIndex, tomorrow } = getWordOfDay()
 export const getWordOfDayInfo = () => {
   let solution = localeAwareLowerCase(getWordOfDay().solution)
   for (let i = 0; i < INFO.length; i++) {
-    if (INFO[i].word == solution) {
+    if (INFO[i].word === solution) {
       return {
         info: INFO[i].definition,
         link: INFO[i].link,
